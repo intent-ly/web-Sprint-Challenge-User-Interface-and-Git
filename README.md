@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic tags in HTML are eligible in English, so <selection><header><footer> etc. are semantic.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    block: changes shape to boxes and arranges in columns
+    inline: changes shape to rectangular boxes and arranges from left to right
 
 3. What are the 4 areas of the box model?
 
+    content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    align-items:center aligns from the "cross axis"
+
 5. Explain why git is valuable to a team of developers.
+
+    Git helps developers distribute repositories so they can work independently/collectively while also seeing updates/changes made to a main repository compared to their branched repository.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,7 +63,6 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
- 
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
